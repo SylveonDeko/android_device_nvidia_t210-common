@@ -1,0 +1,83 @@
+{
+    "Nodes": [
+        {
+            "Name": "CPUMinFreq",
+            "Paths": [
+                "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq"
+            ],
+            "Values": [
+                "204000",
+                "306000",
+                "408000",
+                "510000",
+                "612000",
+                "714000",
+                "816000",
+                "918000",
+                "1020000",
+                "1122000",
+                "1224000",
+                "1326000",
+                "1428000",
+                "1581000",
+                "1683000",
+                "1785000",
+                "1887000",
+                "1963500",
+                "2014500"
+            ],
+            "DefaultIndex": 0,
+            "ResetOnInit": true
+        }
+    ],
+    "Actions": [
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUMinFreq",
+            "Duration": 1000,
+            "Value": "1326000"
+        },
+        {
+            "PowerHint": "GAME_LOADING",
+            "Node": "CPUMinFreq",
+            "Duration": 0,
+            "Value": "1326000"
+        },
+        {
+            "PowerHint": "GAME",
+            "Node": "CPUMinFreq",
+            "Duration": 0,
+            "Value": "1326000"
+        },
+        {
+            "PowerHint": "DISPLAY_INACTIVE",
+            "Node": "CPUMinFreq",
+            "Duration": 0,
+            "Value": "204000"
+        },
+        {
+            "PowerHint": "LAUNCH",
+            "Node": "CPUMinFreq",
+            "Duration": 5000,
+            "Value": "1428000"
+        },
+        {
+            "PowerHint": "DISPLAY_CHANGE",
+            "Node": "CPUMinFreq",
+            "Duration": 5000,
+            "Value": "1581000"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPUMinFreq",
+            "Duration": 5000,
+            "Value": "1581000"
+        },
+        {
+            "PowerHint": "FIXED_PERFORMANCE",
+            "Node": "CPUMinFreq",
+            "Duration": 0,
+            "Value": "2014500"
+        }
+    ]
+}

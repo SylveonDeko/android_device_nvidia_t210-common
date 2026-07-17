@@ -25,3 +25,15 @@ prebuilt_etc {
     src: "powerhint.nouveau.json",
     soc_specific: true,
 }
+
+prebuilt_etc {
+    name: "powerhint.t210b01.json",
+    src: "powerhint.t210b01.json",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "powerhint.t210b01.nouveau.json",
+    src: "powerhint.t210b01.nouveau.json",
+    soc_specific: true,
+}
