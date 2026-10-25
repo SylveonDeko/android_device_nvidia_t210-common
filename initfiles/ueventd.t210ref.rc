@@ -86,6 +86,10 @@
 /dev/quadd	0660	shell	shell
 /dev/quadd_auth	0660	system	system
 /sys/devices/virtual/input/input*	enabled	0660	system	system
+/sys/devices/platform/backlight/backlight/backlight	brightness	0664	system	system
+/sys/devices/platform/backlight/backlight/backlight	bl_power	0664	system	system
+/sys/devices/platform/50000000.host1x/54300000.dsi/54300000.dsi.0/backlight/backlight	brightness	0664	system	system
+/sys/devices/platform/50000000.host1x/54300000.dsi/54300000.dsi.0/backlight/backlight	bl_power	0664	system	system
 /dev/hidraw*    0666    system  system
 /dev/ozwpan     0666    system  system
 /dev/input/event*       0660    system  input
