@@ -187,6 +187,8 @@
 #common sensors files
 /sys/bus/iio/devices/iio:device* buffer/enable 0660 system system
 /sys/bus/iio/devices/iio:device* buffer/length 0660 system system
+/sys/bus/iio/devices/iio:device* buffer/watermark 0660 system system
+/sys/bus/iio/devices/iio:device* current_timestamp_clock 0660 system system
 /sys/bus/iio/devices/iio:device* sampling_frequency 0660 system system
 /sys/bus/iio/devices/iio:device* scan_elements/in_timestamp_en 0660 system system
 /sys/bus/iio/devices/iio:device* scan_elements/in_timestamp_type 0660 system system
